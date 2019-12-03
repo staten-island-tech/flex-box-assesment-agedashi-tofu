@@ -1,16 +1,26 @@
-html{
-    font-size: 62.5%;
-    margin: 0;
-    padding: 0;
+@import "./header";
+
+$colors(
+    primary: #a1887f;
+    primary-dark: #725b53;
+    primary-light: #d3b8ae;
+    secondary: #607d8b;
+    secondary-dark: #34515e;
+    secondary-light: #8eacbb;
+    text-primary: #263238;
+    text-secondary: #fafafa;
+);
+
+@function color($color-name){
+    @return map-get($colors, $color-name)
 }
 
 body{
+    height: 100%;
+    background-color: color(primary-dark); 
 }
 
-.flex-parent{
-
-}
-
-.flex-child{
-
+body-child1{
+    height: 25vh;
+    background-color: color(secondary); 
 }
