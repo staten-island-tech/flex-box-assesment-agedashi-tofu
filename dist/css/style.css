@@ -3,4 +3,18 @@ html {
   margin: 0;
   padding: 0;
 }
+
+body {
+  height: 100%;
+  background-color: #a1887f;
+  display: flex-end;
+}
+
+body-child1 {
+  height: 60vh;
+  background-color: #725b53;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=style.css.map */
