@@ -1,2 +1,2 @@
-html{font-size:62.5%;margin:0;padding:0}body{height:100%;background-color:#a1887f;display:flex-end}body-child1{height:60vh;background-color:#725b53;display:-webkit-box;display:-ms-flexbox;display:flex}
+header{height:100%;background-color:color(secondary-dark);width:80vh}html{font-size:62.5%;margin:0;padding:0}body{font-family:'Franklin Gothic Medium';height:100%;background-color:#a1887f;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-sizing:border-box;box-sizing:border-box}body1{height:60vh;width:60vh;background-color:#8eacbb;display:-webkit-box;display:-ms-flexbox;display:flex}about{height:60vh;background-color:#725b53;display:-webkit-box;display:-ms-flexbox;display:flex}
 /*# sourceMappingURL=style.min.css.map */

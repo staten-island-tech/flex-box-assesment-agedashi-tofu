@@ -1,5 +1,6 @@
 @import "./header";
 
+
 $colors:(
     primary:#a1887f,
     primary-dark:#725b53,
@@ -21,13 +22,31 @@ html{
     padding: 0;
 }
 
-body{
-    height: 100%;
-    background-color: color(primary); 
-    display: flex-end;
+header{
+
 }
 
-body-child1{
+column{
+
+}
+
+
+body{
+    font-family: 'Franklin Gothic Medium';
+    height: 100%;
+    background-color: color(primary); 
+    display: flex;
+    box-sizing: border-box;
+}
+
+body1{
+    height: 60vh;
+    width: 60vh;
+    background-color: color(secondary-light);
+    display: flex;
+}
+
+about{
     height: 60vh;
     background-color: color(primary-dark); 
     display: flex;
