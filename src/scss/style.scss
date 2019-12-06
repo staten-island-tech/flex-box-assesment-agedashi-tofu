@@ -1,5 +1,6 @@
-@import "./header";
-
+/*@import "./header";
+@import "./column";
+*/
 
 $colors:(
     primary:#a1887f,
@@ -20,34 +21,29 @@ html{
     font-size: 62.5%;
     margin: 0;
     padding: 0;
+    box-sizing: border-box; 
 }
 
-header{
-
-}
-
-column{
-
-}
-
-
-body{
-    font-family: 'Franklin Gothic Medium';
-    height: 100%;
-    background-color: color(primary); 
+section{
     display: flex;
-    box-sizing: border-box;
+    height: 80vh;
+    background-color: color(primary);
 }
 
-body1{
-    height: 60vh;
-    width: 60vh;
-    background-color: color(secondary-light);
+flexchild-1{
+    height: 40vh;
+    background-color: color(secondary);
     display: flex;
 }
 
-about{
-    height: 60vh;
-    background-color: color(primary-dark); 
+flexchild-2{
+    height: 40vh;
+    background-color: color(secondary);
+    display: flex;
+}
+
+flexchild-3{
+    height: 40vh;
+    background-color: color(secondary);
     display: flex;
 }
