@@ -18,32 +18,38 @@ $colors:(
 }
 
 html{
-    font-size: 62.5%;
-    margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+body{
+    background-color: color(primary);
+}
 }
 
 section{
+    background-color: color(primary-dark);
     display: flex;
-    height: 80vh;
-    background-color: color(primary);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 flexchild-1{
-    height: 40vh;
+    height: 10rem;
+    width: 10rem;
+    margin: 1rem;
+    padding: 1rem;
     background-color: color(secondary);
-    display: flex;
 }
 
 flexchild-2{
     height: 40vh;
     background-color: color(secondary);
-    display: flex;
 }
 
 flexchild-3{
     height: 40vh;
     background-color: color(secondary);
-    display: flex;
 }
