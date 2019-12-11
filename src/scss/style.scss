@@ -17,29 +17,43 @@ $colors:(
     @return map-get($colors, $color-name)
 }
 
-html{
+html {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-size: 62.5%;
-
-body{
-    background-color: color(primary);
+    body{
+        background-color: color(secondary-light);
+    }
 }
-}
 
-section{
+
+.section {
     background-color: color(secondary-dark);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 60rem;
-    width: 20rem;
 }
 
-flex-child{
-    flex:direction: row;
+.flex-child {
+    flex-direction: row;
     justify-content: space-between;
 }
 
+.header{
+    display: flex;
+    background-color: color(secondary-dark);
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title{
+    height: 10rem;
+    width: 40rem;
+}
+
+.about{
+
+}
