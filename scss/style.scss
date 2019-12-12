@@ -1,0 +1,43 @@
+@import "./colors";
+@import "./fonts";
+@import "./header";
+
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    body{
+        background-color: color(secondary-light);
+    }
+}
+
+
+.section {
+    background-color: color(secondary-dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.flex-child {
+    background-color: color(primary-dark);
+}
+
+.header{
+    display: flex;
+    background-color: color(secondary);
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title{
+    height: 10rem;
+    width: 40rem;
+}
+
+.about{
+
+}
