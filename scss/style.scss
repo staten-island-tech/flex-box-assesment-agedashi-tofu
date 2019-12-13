@@ -23,6 +23,7 @@ html {
 
 .flex-child {
     background-color: color(primary-dark);
+    flex-direction: column;
 }
 
 .header{
@@ -39,5 +40,9 @@ html {
 }
 
 .about{
+    background-color: color(primary);
+    height: 60vh;
+    width: 40vh;
+    font-size: 18px;
 
 }
