@@ -22,9 +22,6 @@ html body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
 }
 
 .flex-child {
@@ -54,12 +51,13 @@ html body {
 .title {
   height: 10rem;
   width: 40rem;
+  font-size: 15rem;
 }
 
 .about {
   background-color: #a1887f;
   height: 60vh;
   width: 40vh;
-  font-size: 18px;
+  font-size: 2rem;
 }
 /*# sourceMappingURL=style.css.map */
