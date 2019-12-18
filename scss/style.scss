@@ -8,43 +8,39 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
     body{
-        background-color: color(secondary-light);
+        background-color: color(primary);
     }
 }
 
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 10rem;
+    width: 40rem;
+    font-size: 10rem;
+}
 
-.section {
-    background-color: color(secondary-dark);
+
+.about{
+    background-color: color(primary-light);
+    height: 60vh;
+    width: 40vh;
+    font-size: 2rem;
+
+.history{
+
+}
+    
+
+.gallery {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.flex-child {
-    background-color: color(primary-dark);
-    flex-direction: column;
-}
-
-.header{
-    display: flex;
-    background-color: color(secondary);
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.title{
-    height: 10rem;
-    width: 40rem;
-    font-size: 15rem;
-}
-
-.about{
-    background-color: color(primary);
-    height: 60vh;
-    width: 40vh;
-    font-size: 2rem;
-    
+.ccp{
 
 }
